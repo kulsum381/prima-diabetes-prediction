@@ -1,4 +1,4 @@
-# Pima Indians Diabetes Prediction using Logistic Regression
+# Prima Indians Diabetes Prediction using Logistic Regression
 
 This project builds a logistic regression model to predict diabetes using the Pima Indians dataset.
 
