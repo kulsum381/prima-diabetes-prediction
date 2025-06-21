@@ -1,18 +1,35 @@
-# 🧠 Pima Indians Diabetes Prediction using Logistic Regression
+# Pima Indians Diabetes Prediction using Logistic Regression
 
-This project builds a machine learning model to predict whether a person is diabetic or not using the **Pima Indians Diabetes Dataset**. The model is trained using **Logistic Regression**, a simple yet powerful classification algorithm.
+This project builds a logistic regression model to predict diabetes using the Pima Indians dataset.
 
-## 📁 Dataset
+## Dataset
 
-- The dataset contains **768 records** of female patients of Pima Indian heritage.
-- Each record contains 8 medical predictors and 1 target variable:
-  
-| Feature | Description |
-|---------|-------------|
-| Pregnancies | Number of pregnancies |
-| Glucose | Plasma glucose concentration |
-| BloodPressure | Diastolic blood pressure (mm Hg) |
-| SkinThickness | Triceps skin fold thickness (mm) |
-| Insulin | 2-Hour serum insulin (mu U/ml) |
-| BMI | Body mass index (weight in kg/(height in m)^2) |
-| Diabetes
+Features:
+- Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin
+- BMI, DiabetesPedigreeFunction, Age
+- Outcome (1 = Diabetic, 0 = Non-Diabetic)
+
+## How to Run
+
+1. Ensure `diabetes.csv` is in the same directory.
+2. Run the script:
+   ```
+   python diabetes_prediction.py
+   ```
+3. Enter values for each feature when prompted.
+
+## Output
+
+Example:
+```
+Model Accuracy: 0.80
+--- Enter Patient Data for Prediction ---
+Enter Glucose: 120
+...
+Prediction: The person is Diabetic
+```
+
+## Author
+
+**Kulsum S.G**  
+Email: sgkulsum62@gmail.com
